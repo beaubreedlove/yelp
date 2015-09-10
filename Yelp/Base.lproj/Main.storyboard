@@ -42,7 +42,10 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="1. Grand Pu Bah" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MxZ-fy-KBD">
-                                                    <rect key="frame" x="81" y="8" width="115.5" height="18"/>
+                                                    <rect key="frame" x="81" y="8" width="181.5" height="18"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="181" id="3gf-wv-Ea5"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -71,7 +74,7 @@
                                                     <color key="textColor" red="0.48617029671717171" green="0.48617029671717171" blue="0.48617029671717171" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4f-2k-3lk">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="$$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4f-2k-3lk">
                                                     <rect key="frame" x="298" y="31" width="14" height="14.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.48617029671717171" green="0.48617029671717171" blue="0.48617029671717171" alpha="1" colorSpace="calibratedRGB"/>
@@ -87,11 +90,11 @@
                                                 <constraint firstItem="MxZ-fy-KBD" firstAttribute="top" secondItem="A6b-qC-MJ8" secondAttribute="top" constant="8" id="Dka-ck-oqh"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vxj-dI-Uh0" secondAttribute="trailing" constant="8" id="F6J-H9-rzk"/>
                                                 <constraint firstItem="MxZ-fy-KBD" firstAttribute="leading" secondItem="NXc-QN-76N" secondAttribute="trailing" constant="8" id="Kvt-kr-yhD"/>
+                                                <constraint firstItem="s4f-2k-3lk" firstAttribute="top" secondItem="Em6-s1-OOh" secondAttribute="bottom" constant="8" id="MUX-G2-ZZ0"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="NXc-QN-76N" secondAttribute="bottom" constant="12" id="Mjz-Fl-tDN"/>
                                                 <constraint firstItem="vxj-dI-Uh0" firstAttribute="leading" secondItem="MxZ-fy-KBD" secondAttribute="leading" id="OHP-DK-ZIE"/>
                                                 <constraint firstItem="Kyt-lq-mR7" firstAttribute="leading" secondItem="NXc-QN-76N" secondAttribute="trailing" constant="8" id="OJn-8E-Y5B"/>
                                                 <constraint firstItem="Se2-8l-kD3" firstAttribute="leading" secondItem="Kyt-lq-mR7" secondAttribute="trailing" constant="8" id="RBV-lq-7N1"/>
-                                                <constraint firstItem="s4f-2k-3lk" firstAttribute="centerY" secondItem="Se2-8l-kD3" secondAttribute="centerY" id="THk-P8-mSh"/>
                                                 <constraint firstItem="muJ-SZ-ey4" firstAttribute="leading" secondItem="NXc-QN-76N" secondAttribute="trailing" constant="8" id="V5i-ye-GuM"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="vxj-dI-Uh0" secondAttribute="bottom" constant="8" id="efC-WR-nwN"/>
                                                 <constraint firstItem="NXc-QN-76N" firstAttribute="top" secondItem="A6b-qC-MJ8" secondAttribute="top" constant="8" id="gJP-w4-WtJ"/>
